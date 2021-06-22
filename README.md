@@ -22,13 +22,13 @@ Requirements: Python 3
 ## 🐋 Container
 
 ```shell
-docker run -it --rm pschmitt/merge-intervals:latest -h
+docker run --rm pschmitt/merge-intervals:latest -h
 ```
 
 ### 🎮 Usage example
 
 ```shell
-docker run -it --rm pschmitt/merge-intervals "[25,30]" "[2,19]" "[14, 23]" "[4,8]"
+docker run --rm pschmitt/merge-intervals "[25,30]" "[2,19]" "[14, 23]" "[4,8]"
 ```
 
 ## 📈 Performance and benchmarks
