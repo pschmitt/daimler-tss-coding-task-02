@@ -33,7 +33,8 @@ docker run --rm pschmitt/merge-intervals "[25,30]" "[2,19]" "[14, 23]" "[4,8]"
 
 ## 📈 Performance and benchmarks
 
-🚧 WIP. See [./benchmark.sh](./benchmark.sh)
+🚧 WIP.
+See [./benchmark.sh](./benchmark.sh) and the [related issues](https://github.com/pschmitt/daimler-tss-coding-task-02/labels/performance)
 
 # 🎓 Similar work
 
