@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "merge-intervals"
+version = "0.1.0"
+description = "Yet another interval merge CLI tool."
+authors = ["Philipp Schmitt <philipp@schmitt.co>"]
+license = "GPL-3.0-only"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+isort = "^5.9.1"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
