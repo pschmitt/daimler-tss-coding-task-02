@@ -13,19 +13,19 @@ Requirements: Python 3
 ### Usage example
 
 ```shell
-./interval_merge.py "[25,30]" "[2,19]" "[14, 23]" "[4,8]"
+./merge_intervals.py "[25,30]" "[2,19]" "[14, 23]" "[4,8]"
 ```
 
 ## Container
 
 ```shell
-docker run -it --rm pschmitt/interval-merge:latest -h
+docker run -it --rm pschmitt/merge-intervals:latest -h
 ```
 
 ### Usage example
 
 ```shell
-docker run -it --rm pschmitt/interval-merge "[25,30]" "[2,19]" "[14, 23]" "[4,8]"
+docker run -it --rm pschmitt/merge-intervals "[25,30]" "[2,19]" "[14, 23]" "[4,8]"
 ```
 
 ## Performance and benchmarks
