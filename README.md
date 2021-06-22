@@ -4,7 +4,7 @@
 
 https://docs.google.com/document/d/1FS272sy-boGQ49TBFKirIbn5YLasZi1XcyAq5NZ2uBI/edit#
 
-# install Installation
+# 😸 Installation instructions
 
 ## 🐍 Quick and dirty, using Python
 
