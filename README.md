@@ -1,3 +1,6 @@
+[![CI](https://github.com/pschmitt/daimler-tss-coding-task-02/actions/workflows/ci.yaml/badge.svg)](https://github.com/pschmitt/daimler-tss-coding-task-02/actions/workflows/ci.yaml)
+[![Build](https://github.com/pschmitt/daimler-tss-coding-task-02/actions/workflows/build.yaml/badge.svg)](https://github.com/pschmitt/daimler-tss-coding-task-02/actions/workflows/build.yaml)
+
 # 🔀 Merge intervals
 
 ## 📚 Exercice Instructions
