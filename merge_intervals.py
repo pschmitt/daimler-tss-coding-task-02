@@ -92,7 +92,7 @@ def main() -> int:
         print(" ".join(str(f"[{x[0]},{x[1]}]") for x in res))
         return 0
     except Exception as exc:
-        LOGGER.error("Exception caught: {exc}")
+        LOGGER.error(f"Exception caught: {exc}")
         return 1
 
 
