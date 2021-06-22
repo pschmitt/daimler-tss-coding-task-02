@@ -77,7 +77,9 @@ def parse_args() -> argparse.Namespace:
         default=False,
         help="Debug. Verbose output",
     )
-    parser.add_argument("INTERVAL", nargs="+")
+    parser.add_argument(
+        "INTERVAL", nargs="+", help="Accepted formats: [NUM1,NUM2] or NUM1,NUM2"
+    )
     return parser.parse_args()
 
 
