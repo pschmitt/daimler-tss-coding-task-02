@@ -14,7 +14,12 @@ LOGGER = logging.getLogger(__name__)
 def read_interval(s: str) -> list:
     """
     Parse strings as intervals
-    Format: [\d+,\d+] (brackets are optional)
+    Format: [NUM,NUM] (brackets are optional)
+    Valid inputs:
+      - [1,3]
+      - [1, 3]
+      - 1,3
+      - 1, 3
     """
     # NOTE: I made the brackets optional here.
     match = re.match(r"\[?(\d+)\s*,\s*(\d+)\]?", s)
